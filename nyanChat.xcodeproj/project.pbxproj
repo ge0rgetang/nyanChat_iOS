@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572CE4B51FEF43B200D548B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4B41FEF43B200D548B9 /* AppDelegate.swift */; };
+		572CE4B71FEF43B200D548B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4B61FEF43B200D548B9 /* ViewController.swift */; };
+		572CE4BA1FEF43B200D548B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572CE4B81FEF43B200D548B9 /* Main.storyboard */; };
+		572CE4BD1FEF43B200D548B9 /* nyanChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4BB1FEF43B200D548B9 /* nyanChat.xcdatamodeld */; };
+		572CE4BF1FEF43B200D548B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572CE4BE1FEF43B200D548B9 /* Assets.xcassets */; };
+		572CE4C21FEF43B200D548B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572CE4C01FEF43B200D548B9 /* LaunchScreen.storyboard */; };
+		572CE4CD1FEF43B200D548B9 /* nyanChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4CC1FEF43B200D548B9 /* nyanChatTests.swift */; };
+		572CE4D81FEF43B200D548B9 /* nyanChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4D71FEF43B200D548B9 /* nyanChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		572CE4C91FEF43B200D548B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572CE4A91FEF43B200D548B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572CE4B01FEF43B200D548B9;
+			remoteInfo = nyanChat;
+		};
+		572CE4D41FEF43B200D548B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572CE4A91FEF43B200D548B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572CE4B01FEF43B200D548B9;
+			remoteInfo = nyanChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		572CE4B11FEF43B200D548B9 /* nyanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nyanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		572CE4B41FEF43B200D548B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		572CE4B61FEF43B200D548B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		572CE4B91FEF43B200D548B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		572CE4BC1FEF43B200D548B9 /* nyanChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nyanChat.xcdatamodel; sourceTree = "<group>"; };
+		572CE4BE1FEF43B200D548B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		572CE4C11FEF43B200D548B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		572CE4C31FEF43B200D548B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572CE4C81FEF43B200D548B9 /* nyanChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nyanChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572CE4CC1FEF43B200D548B9 /* nyanChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nyanChatTests.swift; sourceTree = "<group>"; };
+		572CE4CE1FEF43B200D548B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572CE4D31FEF43B200D548B9 /* nyanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nyanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572CE4D71FEF43B200D548B9 /* nyanChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nyanChatUITests.swift; sourceTree = "<group>"; };
+		572CE4D91FEF43B200D548B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		572CE4AE1FEF43B200D548B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572CE4C51FEF43B200D548B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572CE4D01FEF43B200D548B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572CE4A81FEF43B200D548B9 = {
+			isa = PBXGroup;
+			children = (
+				572CE4B31FEF43B200D548B9 /* nyanChat */,
+				572CE4CB1FEF43B200D548B9 /* nyanChatTests */,
+				572CE4D61FEF43B200D548B9 /* nyanChatUITests */,
+				572CE4B21FEF43B200D548B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		572CE4B21FEF43B200D548B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				572CE4B11FEF43B200D548B9 /* nyanChat.app */,
+				572CE4C81FEF43B200D548B9 /* nyanChatTests.xctest */,
+				572CE4D31FEF43B200D548B9 /* nyanChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		572CE4B31FEF43B200D548B9 /* nyanChat */ = {
+			isa = PBXGroup;
+			children = (
+				572CE4B41FEF43B200D548B9 /* AppDelegate.swift */,
+				572CE4B61FEF43B200D548B9 /* ViewController.swift */,
+				572CE4B81FEF43B200D548B9 /* Main.storyboard */,
+				572CE4BE1FEF43B200D548B9 /* Assets.xcassets */,
+				572CE4C01FEF43B200D548B9 /* LaunchScreen.storyboard */,
+				572CE4C31FEF43B200D548B9 /* Info.plist */,
+				572CE4BB1FEF43B200D548B9 /* nyanChat.xcdatamodeld */,
+			);
+			path = nyanChat;
+			sourceTree = "<group>";
+		};
+		572CE4CB1FEF43B200D548B9 /* nyanChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				572CE4CC1FEF43B200D548B9 /* nyanChatTests.swift */,
+				572CE4CE1FEF43B200D548B9 /* Info.plist */,
+			);
+			path = nyanChatTests;
+			sourceTree = "<group>";
+		};
+		572CE4D61FEF43B200D548B9 /* nyanChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				572CE4D71FEF43B200D548B9 /* nyanChatUITests.swift */,
+				572CE4D91FEF43B200D548B9 /* Info.plist */,
+			);
+			path = nyanChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		572CE4B01FEF43B200D548B9 /* nyanChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572CE4DC1FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChat" */;
+			buildPhases = (
+				572CE4AD1FEF43B200D548B9 /* Sources */,
+				572CE4AE1FEF43B200D548B9 /* Frameworks */,
+				572CE4AF1FEF43B200D548B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nyanChat;
+			productName = nyanChat;
+			productReference = 572CE4B11FEF43B200D548B9 /* nyanChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		572CE4C71FEF43B200D548B9 /* nyanChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572CE4DF1FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChatTests" */;
+			buildPhases = (
+				572CE4C41FEF43B200D548B9 /* Sources */,
+				572CE4C51FEF43B200D548B9 /* Frameworks */,
+				572CE4C61FEF43B200D548B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572CE4CA1FEF43B200D548B9 /* PBXTargetDependency */,
+			);
+			name = nyanChatTests;
+			productName = nyanChatTests;
+			productReference = 572CE4C81FEF43B200D548B9 /* nyanChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		572CE4D21FEF43B200D548B9 /* nyanChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572CE4E21FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChatUITests" */;
+			buildPhases = (
+				572CE4CF1FEF43B200D548B9 /* Sources */,
+				572CE4D01FEF43B200D548B9 /* Frameworks */,
+				572CE4D11FEF43B200D548B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572CE4D51FEF43B200D548B9 /* PBXTargetDependency */,
+			);
+			name = nyanChatUITests;
+			productName = nyanChatUITests;
+			productReference = 572CE4D31FEF43B200D548B9 /* nyanChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		572CE4A91FEF43B200D548B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "George Tang";
+				TargetAttributes = {
+					572CE4B01FEF43B200D548B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					572CE4C71FEF43B200D548B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 572CE4B01FEF43B200D548B9;
+					};
+					572CE4D21FEF43B200D548B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 572CE4B01FEF43B200D548B9;
+					};
+				};
+			};
+			buildConfigurationList = 572CE4AC1FEF43B200D548B9 /* Build configuration list for PBXProject "nyanChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 572CE4A81FEF43B200D548B9;
+			productRefGroup = 572CE4B21FEF43B200D548B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				572CE4B01FEF43B200D548B9 /* nyanChat */,
+				572CE4C71FEF43B200D548B9 /* nyanChatTests */,
+				572CE4D21FEF43B200D548B9 /* nyanChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		572CE4AF1FEF43B200D548B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572CE4C21FEF43B200D548B9 /* LaunchScreen.storyboard in Resources */,
+				572CE4BF1FEF43B200D548B9 /* Assets.xcassets in Resources */,
+				572CE4BA1FEF43B200D548B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572CE4C61FEF43B200D548B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572CE4D11FEF43B200D548B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		572CE4AD1FEF43B200D548B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572CE4BD1FEF43B200D548B9 /* nyanChat.xcdatamodeld in Sources */,
+				572CE4B71FEF43B200D548B9 /* ViewController.swift in Sources */,
+				572CE4B51FEF43B200D548B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572CE4C41FEF43B200D548B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572CE4CD1FEF43B200D548B9 /* nyanChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572CE4CF1FEF43B200D548B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572CE4D81FEF43B200D548B9 /* nyanChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		572CE4CA1FEF43B200D548B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572CE4B01FEF43B200D548B9 /* nyanChat */;
+			targetProxy = 572CE4C91FEF43B200D548B9 /* PBXContainerItemProxy */;
+		};
+		572CE4D51FEF43B200D548B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572CE4B01FEF43B200D548B9 /* nyanChat */;
+			targetProxy = 572CE4D41FEF43B200D548B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		572CE4B81FEF43B200D548B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				572CE4B91FEF43B200D548B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		572CE4C01FEF43B200D548B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				572CE4C11FEF43B200D548B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		572CE4DA1FEF43B200D548B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		572CE4DB1FEF43B200D548B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572CE4DD1FEF43B200D548B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W33S22NFSA;
+				INFOPLIST_FILE = nyanChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgetang.nyanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		572CE4DE1FEF43B200D548B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W33S22NFSA;
+				INFOPLIST_FILE = nyanChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgetang.nyanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		572CE4E01FEF43B200D548B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W33S22NFSA;
+				INFOPLIST_FILE = nyanChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgetang.nyanChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nyanChat.app/nyanChat";
+			};
+			name = Debug;
+		};
+		572CE4E11FEF43B200D548B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W33S22NFSA;
+				INFOPLIST_FILE = nyanChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgetang.nyanChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nyanChat.app/nyanChat";
+			};
+			name = Release;
+		};
+		572CE4E31FEF43B200D548B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W33S22NFSA;
+				INFOPLIST_FILE = nyanChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgetang.nyanChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nyanChat;
+			};
+			name = Debug;
+		};
+		572CE4E41FEF43B200D548B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W33S22NFSA;
+				INFOPLIST_FILE = nyanChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgetang.nyanChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nyanChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		572CE4AC1FEF43B200D548B9 /* Build configuration list for PBXProject "nyanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572CE4DA1FEF43B200D548B9 /* Debug */,
+				572CE4DB1FEF43B200D548B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572CE4DC1FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572CE4DD1FEF43B200D548B9 /* Debug */,
+				572CE4DE1FEF43B200D548B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572CE4DF1FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572CE4E01FEF43B200D548B9 /* Debug */,
+				572CE4E11FEF43B200D548B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572CE4E21FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572CE4E31FEF43B200D548B9 /* Debug */,
+				572CE4E41FEF43B200D548B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		572CE4BB1FEF43B200D548B9 /* nyanChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				572CE4BC1FEF43B200D548B9 /* nyanChat.xcdatamodel */,
+			);
+			currentVersion = 572CE4BC1FEF43B200D548B9 /* nyanChat.xcdatamodel */;
+			path = nyanChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 572CE4A91FEF43B200D548B9 /* Project object */;
+}
