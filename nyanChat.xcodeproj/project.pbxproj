@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3530D24B800179B083D556 /* Pods_nyanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6391B5345515C98E6A5FF228 /* Pods_nyanChat.framework */; };
+		1E41FC01EF6837C9F8AB5693 /* Pods_nyanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9713E815DCC6B604FABEC6 /* Pods_nyanChatTests.framework */; };
 		572CE4B51FEF43B200D548B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4B41FEF43B200D548B9 /* AppDelegate.swift */; };
-		572CE4B71FEF43B200D548B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4B61FEF43B200D548B9 /* ViewController.swift */; };
 		572CE4BA1FEF43B200D548B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572CE4B81FEF43B200D548B9 /* Main.storyboard */; };
 		572CE4BD1FEF43B200D548B9 /* nyanChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4BB1FEF43B200D548B9 /* nyanChat.xcdatamodeld */; };
 		572CE4BF1FEF43B200D548B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572CE4BE1FEF43B200D548B9 /* Assets.xcassets */; };
 		572CE4C21FEF43B200D548B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572CE4C01FEF43B200D548B9 /* LaunchScreen.storyboard */; };
 		572CE4CD1FEF43B200D548B9 /* nyanChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4CC1FEF43B200D548B9 /* nyanChatTests.swift */; };
 		572CE4D81FEF43B200D548B9 /* nyanChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4D71FEF43B200D548B9 /* nyanChatUITests.swift */; };
+		572CE4E61FEF7F8500D548B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 572CE4E51FEF7F8500D548B9 /* GoogleService-Info.plist */; };
+		572CE4E82006C2D500D548B9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4E72006C2D500D548B9 /* SignUpViewController.swift */; };
+		572CE4EA2006C2E600D548B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4E92006C2E600D548B9 /* LoginViewController.swift */; };
+		572CE4EC2006C36E00D548B9 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4EB2006C36E00D548B9 /* ChatListViewController.swift */; };
+		572CE4EE2006C3C500D548B9 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4ED2006C3C500D548B9 /* ConversationViewController.swift */; };
+		572CE4F02006CAFC00D548B9 /* FullscreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4EF2006CAFC00D548B9 /* FullscreenImageViewController.swift */; };
+		572CE4F42006D36E00D548B9 /* MasterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4F32006D36E00D548B9 /* MasterPageViewController.swift */; };
+		572CE4F72006D88300D548B9 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE4F62006D88300D548B9 /* Helpers.swift */; };
+		572CE4F92006E2A500D548B9 /* nyanFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 572CE4F82006E2A400D548B9 /* nyanFont.ttf */; };
+		572CE5012007002D00D548B9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5002007002D00D548B9 /* ProfileViewController.swift */; };
+		572CE5032007280A00D548B9 /* NoContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5022007280A00D548B9 /* NoContentTableViewCell.swift */; };
+		572CE5052007284000D548B9 /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5042007284000D548B9 /* ChatListTableViewCell.swift */; };
+		572CE5072007286C00D548B9 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5062007286C00D548B9 /* TextTableViewCell.swift */; };
+		572CE5092007288000D548B9 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5082007288000D548B9 /* ImageTableViewCell.swift */; };
+		572CE50E200765F600D548B9 /* FirebaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE50D200765F600D548B9 /* FirebaseHelpers.swift */; };
+		94834B05B0E3D718E00C0C3C /* Pods_nyanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13CF97D1AA5D68A911693A71 /* Pods-nyanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChat/Pods-nyanChat.debug.xcconfig"; sourceTree = "<group>"; };
+		1A00B1D27C4B0724D715E651 /* Pods-nyanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChat/Pods-nyanChat.release.xcconfig"; sourceTree = "<group>"; };
+		4ADB6BAFAC49C90D68A8BFD4 /* Pods-nyanChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChatUITests/Pods-nyanChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D9713E815DCC6B604FABEC6 /* Pods_nyanChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572CE4B11FEF43B200D548B9 /* nyanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nyanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		572CE4B41FEF43B200D548B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		572CE4B61FEF43B200D548B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		572CE4B91FEF43B200D548B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		572CE4BC1FEF43B200D548B9 /* nyanChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nyanChat.xcdatamodel; sourceTree = "<group>"; };
 		572CE4BE1FEF43B200D548B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +69,26 @@
 		572CE4D31FEF43B200D548B9 /* nyanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nyanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		572CE4D71FEF43B200D548B9 /* nyanChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nyanChatUITests.swift; sourceTree = "<group>"; };
 		572CE4D91FEF43B200D548B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572CE4E51FEF7F8500D548B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		572CE4E72006C2D500D548B9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		572CE4E92006C2E600D548B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		572CE4EB2006C36E00D548B9 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		572CE4ED2006C3C500D548B9 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		572CE4EF2006CAFC00D548B9 /* FullscreenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenImageViewController.swift; sourceTree = "<group>"; };
+		572CE4F32006D36E00D548B9 /* MasterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterPageViewController.swift; sourceTree = "<group>"; };
+		572CE4F62006D88300D548B9 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		572CE4F82006E2A400D548B9 /* nyanFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nyanFont.ttf; sourceTree = "<group>"; };
+		572CE5002007002D00D548B9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		572CE5022007280A00D548B9 /* NoContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoContentTableViewCell.swift; sourceTree = "<group>"; };
+		572CE5042007284000D548B9 /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
+		572CE5062007286C00D548B9 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		572CE5082007288000D548B9 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		572CE50D200765F600D548B9 /* FirebaseHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelpers.swift; sourceTree = "<group>"; };
+		5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6391B5345515C98E6A5FF228 /* Pods_nyanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		754CB7533C31AB11A8B37EE5 /* Pods-nyanChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChatTests/Pods-nyanChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5A59DF47DA103F8793CCB35 /* Pods-nyanChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChatTests/Pods-nyanChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B4610B8BE0FDB74328A2BC /* Pods-nyanChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChatUITests/Pods-nyanChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3530D24B800179B083D556 /* Pods_nyanChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E41FC01EF6837C9F8AB5693 /* Pods_nyanChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94834B05B0E3D718E00C0C3C /* Pods_nyanChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		508E18D09C7F617D36CB5288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6391B5345515C98E6A5FF228 /* Pods_nyanChat.framework */,
+				4D9713E815DCC6B604FABEC6 /* Pods_nyanChatTests.framework */,
+				5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		572CE4A81FEF43B200D548B9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,8 @@
 				572CE4CB1FEF43B200D548B9 /* nyanChatTests */,
 				572CE4D61FEF43B200D548B9 /* nyanChatUITests */,
 				572CE4B21FEF43B200D548B9 /* Products */,
+				AAD83043540AE3BA4999D00A /* Pods */,
+				508E18D09C7F617D36CB5288 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +155,15 @@
 			isa = PBXGroup;
 			children = (
 				572CE4B41FEF43B200D548B9 /* AppDelegate.swift */,
-				572CE4B61FEF43B200D548B9 /* ViewController.swift */,
 				572CE4B81FEF43B200D548B9 /* Main.storyboard */,
 				572CE4BE1FEF43B200D548B9 /* Assets.xcassets */,
 				572CE4C01FEF43B200D548B9 /* LaunchScreen.storyboard */,
 				572CE4C31FEF43B200D548B9 /* Info.plist */,
+				572CE4E51FEF7F8500D548B9 /* GoogleService-Info.plist */,
+				572CE50A2007288A00D548B9 /* Cells */,
+				572CE4FC2006E3B200D548B9 /* ViewControllers */,
+				572CE4FB2006E36100D548B9 /* Helpers */,
+				572CE4FA2006E31600D548B9 /* Fonts */,
 				572CE4BB1FEF43B200D548B9 /* nyanChat.xcdatamodeld */,
 			);
 			path = nyanChat;
@@ -128,6 +187,61 @@
 			path = nyanChatUITests;
 			sourceTree = "<group>";
 		};
+		572CE4FA2006E31600D548B9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				572CE4F82006E2A400D548B9 /* nyanFont.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		572CE4FB2006E36100D548B9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				572CE4F62006D88300D548B9 /* Helpers.swift */,
+				572CE50D200765F600D548B9 /* FirebaseHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		572CE4FC2006E3B200D548B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				572CE4E72006C2D500D548B9 /* SignUpViewController.swift */,
+				572CE4F32006D36E00D548B9 /* MasterPageViewController.swift */,
+				572CE4E92006C2E600D548B9 /* LoginViewController.swift */,
+				572CE5002007002D00D548B9 /* ProfileViewController.swift */,
+				572CE4EB2006C36E00D548B9 /* ChatListViewController.swift */,
+				572CE4ED2006C3C500D548B9 /* ConversationViewController.swift */,
+				572CE4EF2006CAFC00D548B9 /* FullscreenImageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		572CE50A2007288A00D548B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				572CE5022007280A00D548B9 /* NoContentTableViewCell.swift */,
+				572CE5042007284000D548B9 /* ChatListTableViewCell.swift */,
+				572CE5062007286C00D548B9 /* TextTableViewCell.swift */,
+				572CE5082007288000D548B9 /* ImageTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AAD83043540AE3BA4999D00A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13CF97D1AA5D68A911693A71 /* Pods-nyanChat.debug.xcconfig */,
+				1A00B1D27C4B0724D715E651 /* Pods-nyanChat.release.xcconfig */,
+				B5A59DF47DA103F8793CCB35 /* Pods-nyanChatTests.debug.xcconfig */,
+				754CB7533C31AB11A8B37EE5 /* Pods-nyanChatTests.release.xcconfig */,
+				C6B4610B8BE0FDB74328A2BC /* Pods-nyanChatUITests.debug.xcconfig */,
+				4ADB6BAFAC49C90D68A8BFD4 /* Pods-nyanChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572CE4DC1FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChat" */;
 			buildPhases = (
+				5D747CB837FE43F0EACE5847 /* [CP] Check Pods Manifest.lock */,
 				572CE4AD1FEF43B200D548B9 /* Sources */,
 				572CE4AE1FEF43B200D548B9 /* Frameworks */,
 				572CE4AF1FEF43B200D548B9 /* Resources */,
+				C39E7EF9BB7D353E6B9CBF06 /* [CP] Embed Pods Frameworks */,
+				CE73E3D97FED54FF6088B0BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572CE4DF1FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChatTests" */;
 			buildPhases = (
+				C5E4D4A02ADB8D825444B962 /* [CP] Check Pods Manifest.lock */,
 				572CE4C41FEF43B200D548B9 /* Sources */,
 				572CE4C51FEF43B200D548B9 /* Frameworks */,
 				572CE4C61FEF43B200D548B9 /* Resources */,
+				67DA756BA53A83A7164F99AF /* [CP] Embed Pods Frameworks */,
+				5993BD92B95784674CEC78A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572CE4E21FEF43B200D548B9 /* Build configuration list for PBXNativeTarget "nyanChatUITests" */;
 			buildPhases = (
+				8C9AAA6547F4F57A26BE2CEB /* [CP] Check Pods Manifest.lock */,
 				572CE4CF1FEF43B200D548B9 /* Sources */,
 				572CE4D01FEF43B200D548B9 /* Frameworks */,
 				572CE4D11FEF43B200D548B9 /* Resources */,
+				599AC44503DF1A9A972012DA /* [CP] Embed Pods Frameworks */,
+				28A0DDE7F10B6E8B7BD49686 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +359,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				572CE4C21FEF43B200D548B9 /* LaunchScreen.storyboard in Resources */,
+				572CE4F92006E2A500D548B9 /* nyanFont.ttf in Resources */,
+				572CE4E61FEF7F8500D548B9 /* GoogleService-Info.plist in Resources */,
 				572CE4BF1FEF43B200D548B9 /* Assets.xcassets in Resources */,
 				572CE4BA1FEF43B200D548B9 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +382,190 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A0DDE7F10B6E8B7BD49686 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nyanChatUITests/Pods-nyanChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5993BD92B95784674CEC78A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nyanChatTests/Pods-nyanChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		599AC44503DF1A9A972012DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nyanChatUITests/Pods-nyanChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D747CB837FE43F0EACE5847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nyanChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67DA756BA53A83A7164F99AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nyanChatTests/Pods-nyanChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C9AAA6547F4F57A26BE2CEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nyanChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39E7EF9BB7D353E6B9CBF06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nyanChat/Pods-nyanChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nyanChat/Pods-nyanChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E4D4A02ADB8D825444B962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nyanChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE73E3D97FED54FF6088B0BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nyanChat/Pods-nyanChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		572CE4AD1FEF43B200D548B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572CE4EA2006C2E600D548B9 /* LoginViewController.swift in Sources */,
+				572CE4F42006D36E00D548B9 /* MasterPageViewController.swift in Sources */,
+				572CE5012007002D00D548B9 /* ProfileViewController.swift in Sources */,
+				572CE5032007280A00D548B9 /* NoContentTableViewCell.swift in Sources */,
+				572CE4E82006C2D500D548B9 /* SignUpViewController.swift in Sources */,
+				572CE4EE2006C3C500D548B9 /* ConversationViewController.swift in Sources */,
+				572CE4F72006D88300D548B9 /* Helpers.swift in Sources */,
+				572CE5092007288000D548B9 /* ImageTableViewCell.swift in Sources */,
 				572CE4BD1FEF43B200D548B9 /* nyanChat.xcdatamodeld in Sources */,
-				572CE4B71FEF43B200D548B9 /* ViewController.swift in Sources */,
 				572CE4B51FEF43B200D548B9 /* AppDelegate.swift in Sources */,
+				572CE50E200765F600D548B9 /* FirebaseHelpers.swift in Sources */,
+				572CE5052007284000D548B9 /* ChatListTableViewCell.swift in Sources */,
+				572CE5072007286C00D548B9 /* TextTableViewCell.swift in Sources */,
+				572CE4EC2006C36E00D548B9 /* ChatListViewController.swift in Sources */,
+				572CE4F02006CAFC00D548B9 /* FullscreenImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +729,7 @@
 		};
 		572CE4DD1FEF43B200D548B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CF97D1AA5D68A911693A71 /* Pods-nyanChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,12 +739,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.georgetang.nyanChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		572CE4DE1FEF43B200D548B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A00B1D27C4B0724D715E651 /* Pods-nyanChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,12 +755,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.georgetang.nyanChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		572CE4E01FEF43B200D548B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A59DF47DA103F8793CCB35 /* Pods-nyanChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +779,7 @@
 		};
 		572CE4E11FEF43B200D548B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754CB7533C31AB11A8B37EE5 /* Pods-nyanChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +797,7 @@
 		};
 		572CE4E31FEF43B200D548B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B4610B8BE0FDB74328A2BC /* Pods-nyanChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +814,7 @@
 		};
 		572CE4E41FEF43B200D548B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADB6BAFAC49C90D68A8BFD4 /* Pods-nyanChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
