@@ -131,7 +131,6 @@ class LoginViewController: UIViewController {
                         helpers.displayToast(self.view, message: "error")
                     }
                 })
-                
             }
         }
         

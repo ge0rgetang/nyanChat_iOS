@@ -45,5 +45,9 @@
 	<array>
 		<string>nyanFont.ttf</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Please grant access so you can take and send pictures.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please grant access so you can send pictures in your photo library.</string>
 </dict>
 </plist>

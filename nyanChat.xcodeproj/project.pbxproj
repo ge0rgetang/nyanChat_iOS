@@ -31,6 +31,8 @@
 		572CE5072007286C00D548B9 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5062007286C00D548B9 /* TextTableViewCell.swift */; };
 		572CE5092007288000D548B9 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5082007288000D548B9 /* ImageTableViewCell.swift */; };
 		572CE50E200765F600D548B9 /* FirebaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE50D200765F600D548B9 /* FirebaseHelpers.swift */; };
+		572CE5112007782C00D548B9 /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5102007782C00D548B9 /* ChatList.swift */; };
+		572CE5132007799000D548B9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5122007799000D548B9 /* Message.swift */; };
 		94834B05B0E3D718E00C0C3C /* Pods_nyanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,8 @@
 		572CE5062007286C00D548B9 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		572CE5082007288000D548B9 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		572CE50D200765F600D548B9 /* FirebaseHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelpers.swift; sourceTree = "<group>"; };
+		572CE5102007782C00D548B9 /* ChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
+		572CE5122007799000D548B9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6391B5345515C98E6A5FF228 /* Pods_nyanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754CB7533C31AB11A8B37EE5 /* Pods-nyanChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChatTests/Pods-nyanChatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 				572CE4C01FEF43B200D548B9 /* LaunchScreen.storyboard */,
 				572CE4C31FEF43B200D548B9 /* Info.plist */,
 				572CE4E51FEF7F8500D548B9 /* GoogleService-Info.plist */,
+				572CE50F2007780D00D548B9 /* Models */,
 				572CE50A2007288A00D548B9 /* Cells */,
 				572CE4FC2006E3B200D548B9 /* ViewControllers */,
 				572CE4FB2006E36100D548B9 /* Helpers */,
@@ -227,6 +232,15 @@
 				572CE5082007288000D548B9 /* ImageTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		572CE50F2007780D00D548B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				572CE5102007782C00D548B9 /* ChatList.swift */,
+				572CE5122007799000D548B9 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		AAD83043540AE3BA4999D00A /* Pods */ = {
@@ -554,8 +568,10 @@
 				572CE4EA2006C2E600D548B9 /* LoginViewController.swift in Sources */,
 				572CE4F42006D36E00D548B9 /* MasterPageViewController.swift in Sources */,
 				572CE5012007002D00D548B9 /* ProfileViewController.swift in Sources */,
+				572CE5132007799000D548B9 /* Message.swift in Sources */,
 				572CE5032007280A00D548B9 /* NoContentTableViewCell.swift in Sources */,
 				572CE4E82006C2D500D548B9 /* SignUpViewController.swift in Sources */,
+				572CE5112007782C00D548B9 /* ChatList.swift in Sources */,
 				572CE4EE2006C3C500D548B9 /* ConversationViewController.swift in Sources */,
 				572CE4F72006D88300D548B9 /* Helpers.swift in Sources */,
 				572CE5092007288000D548B9 /* ImageTableViewCell.swift in Sources */,

@@ -385,7 +385,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyanCatBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Bfh-ov-YSj">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yNA-Ta-2Mr">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfilePic" translatesAutoresizingMaskIntoConstraints="NO" id="yNA-Ta-2Mr">
                                 <rect key="frame" x="88" y="20" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="yNA-Ta-2Mr" secondAttribute="height" multiplier="1:1" id="HdV-uS-hgg"/>
@@ -802,6 +802,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="defaultProfilePic" width="125" height="125"/>
         <image name="nyanCatBackground" width="336" height="594"/>
     </resources>
 </document>

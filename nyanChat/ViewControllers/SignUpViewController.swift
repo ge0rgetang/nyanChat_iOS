@@ -190,7 +190,6 @@ class SignUpViewController: UIViewController {
                 helpers.postToNotificationCenter("turnToChatList")
             }
         }
-        
     }
     
 }
