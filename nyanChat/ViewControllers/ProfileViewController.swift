@@ -35,7 +35,7 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.title = "Profile"
+        self.navigationController?.title = "Profile" 
         
         let tapPic: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.selectPicSource))
         self.profilePicImageView.addGestureRecognizer(tapPic)
