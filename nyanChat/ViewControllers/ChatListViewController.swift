@@ -24,7 +24,7 @@ class ChatListViewController: UIViewController {
     var usernameToPass: String = "nyanChat"
     var chats: [ChatList] = []
     var searchResults: [SearchResult] = []
-    var searchController: UISearchController!
+    var searchController: UISearchController = UISearchController(searchResultsController: nil)
     
     
 // MARK: - Lifecycle
@@ -65,10 +65,14 @@ class ChatListViewController: UIViewController {
         }
     }
     
+    @objc func turnToProfile() {
+        Helpers().postToNotificationCenter("turnToProfile")
+    }
+    
     
 // MARK - SideMenu
     
-    private func setSideMenu() {
+     func setSideMenu() {
         if let sideMenuNavigationController = storyboard?.instantiateViewController(withIdentifier: "SideMenuNavigationController") as? UISideMenuNavigationController {
             sideMenuNavigationController.leftSide = true
             SideMenuManager.default.menuLeftNavigationController = sideMenuNavigationController

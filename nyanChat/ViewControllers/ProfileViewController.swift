@@ -11,7 +11,7 @@ import FirebaseAuth
 import FirebaseStorage
 import FirebaseDatabase
 
-class ProfileViewController: UIPageViewController {
+class ProfileViewController: UIViewController {
     
 // MARK: - Outlets
     
@@ -35,28 +35,34 @@ class ProfileViewController: UIPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Helpers().roundButtons([self.logoutButton])
-
+        self.navigationController?.title = "Profile"
+        
         let tapPic: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.selectPicSource))
         self.profilePicImageView.addGestureRecognizer(tapPic)
+        Helpers().roundButtons([self.logoutButton])
         
-        self.setImagePicker()
         self.retrieveUsername()
+        self.setImagePicker()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.downloadProfilePic()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
+    @objc func turnToChatList() {
+        Helpers().postToNotificationCenter("turnToChatList")
+    }
     
 // MARK: ProfilePic
     
     override func viewWillLayoutSubviews() {
-        self.makePicCircular()
+        if self.profilePicImageView != nil {
+            self.makePicCircular()
+        }
     }
     
     private func makePicCircular() {

@@ -32,6 +32,7 @@ class MasterPageViewController: UIPageViewController, UIPageViewControllerDelega
     private func addTurnToPageObservers() {
         NotificationCenter.default.addObserver(self, selector: #selector(self.turnToSignUp), name: Notification.Name("turnToSignUp"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(self.turnToLogin), name: Notification.Name("turnToLogin"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(self.turnToProfile), name: Notification.Name("turnToProfile"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(self.turnToChatList), name: Notification.Name("turnToChatList"), object: nil)
     }
     
@@ -45,9 +46,14 @@ class MasterPageViewController: UIPageViewController, UIPageViewControllerDelega
         setViewControllers([vc], direction: .forward, animated: false, completion: nil)
     }
     
-    @objc private func turnToChatList() {
+    @objc private func turnToProfile() {
         let vc = self.orderedViewControllers[2]
-        setViewControllers([vc], direction: .forward, animated: false, completion: nil)
+        setViewControllers([vc], direction: .forward, animated: true, completion: nil)
+    }
+    
+    @objc private func turnToChatList() {
+        let vc = self.orderedViewControllers[3]
+        setViewControllers([vc], direction: .forward, animated: true, completion: nil)
     }
     
     private func setInitalPage() {
@@ -57,7 +63,7 @@ class MasterPageViewController: UIPageViewController, UIPageViewControllerDelega
         if myID == "0" {
             vc = self.orderedViewControllers[0]
         } else {
-            vc = self.orderedViewControllers[2]
+            vc = self.orderedViewControllers[3]
         }
         
         setViewControllers([vc], direction: .forward, animated: false, completion: nil)
@@ -69,6 +75,7 @@ class MasterPageViewController: UIPageViewController, UIPageViewControllerDelega
     lazy var orderedViewControllers: [UIViewController] = {
         return [self.newViewController("SignUpViewController"),
                 self.newViewController("LoginViewController"),
+                self.newViewController("ProfileViewController"),
                 self.newViewController("ChatListNavigationController")]
     } ()
     

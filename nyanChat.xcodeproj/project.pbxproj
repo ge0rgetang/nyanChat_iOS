@@ -32,9 +32,9 @@
 		572CE50E200765F600D548B9 /* FirebaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE50D200765F600D548B9 /* FirebaseHelpers.swift */; };
 		572CE5112007782C00D548B9 /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5102007782C00D548B9 /* ChatList.swift */; };
 		572CE5132007799000D548B9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5122007799000D548B9 /* Message.swift */; };
-		572CE5152007BA7700D548B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 572CE5142007BA7700D548B9 /* GoogleService-Info.plist */; };
 		572CE5172007C01400D548B9 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5162007C01400D548B9 /* SearchResult.swift */; };
 		572CE5192007C17A00D548B9 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5182007C17A00D548B9 /* SearchTableViewCell.swift */; };
+		572CE51B2007C76D00D548B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 572CE51A2007C76C00D548B9 /* GoogleService-Info.plist */; };
 		94834B05B0E3D718E00C0C3C /* Pods_nyanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,9 +89,9 @@
 		572CE50D200765F600D548B9 /* FirebaseHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelpers.swift; sourceTree = "<group>"; };
 		572CE5102007782C00D548B9 /* ChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
 		572CE5122007799000D548B9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		572CE5142007BA7700D548B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		572CE5162007C01400D548B9 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		572CE5182007C17A00D548B9 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		572CE51A2007C76C00D548B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6391B5345515C98E6A5FF228 /* Pods_nyanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754CB7533C31AB11A8B37EE5 /* Pods-nyanChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChatTests/Pods-nyanChatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 				572CE4BE1FEF43B200D548B9 /* Assets.xcassets */,
 				572CE4C01FEF43B200D548B9 /* LaunchScreen.storyboard */,
 				572CE4C31FEF43B200D548B9 /* Info.plist */,
-				572CE5142007BA7700D548B9 /* GoogleService-Info.plist */,
+				572CE51A2007C76C00D548B9 /* GoogleService-Info.plist */,
 				572CE50F2007780D00D548B9 /* Models */,
 				572CE50A2007288A00D548B9 /* Cells */,
 				572CE4FC2006E3B200D548B9 /* ViewControllers */,
@@ -380,7 +380,7 @@
 			files = (
 				572CE4C21FEF43B200D548B9 /* LaunchScreen.storyboard in Resources */,
 				572CE4F92006E2A500D548B9 /* nyanFont.ttf in Resources */,
-				572CE5152007BA7700D548B9 /* GoogleService-Info.plist in Resources */,
+				572CE51B2007C76D00D548B9 /* GoogleService-Info.plist in Resources */,
 				572CE4BF1FEF43B200D548B9 /* Assets.xcassets in Resources */,
 				572CE4BA1FEF43B200D548B9 /* Main.storyboard in Resources */,
 			);
