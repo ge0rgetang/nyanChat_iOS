@@ -97,7 +97,7 @@ class LoginViewController: UIViewController {
     }
     
     
-// MARK: - Firebase
+// MARK: - Firebase Auth 
     
     private func login() {
         let helpers = Helpers()

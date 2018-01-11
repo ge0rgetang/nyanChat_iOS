@@ -15,5 +15,5 @@ struct ChatList {
     var username: String = "error"
     var message: String = "error"
     var timestamp: String = "error"
-    var reverseTimestamp: TimeInterval = 0
+    var reverseTimestamp: Double = 0
 }

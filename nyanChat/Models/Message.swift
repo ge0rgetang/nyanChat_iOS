@@ -11,5 +11,6 @@ import Foundation
 struct Message {
     var messageID: String = "0"
     var message: String = "error"
+    var userID: String = "0"
     var imagePicURL: URL?
 }

@@ -27,6 +27,13 @@ class Helpers {
         }
     }
     
+    func retrieveMyUsername() -> String {
+        if let un = UserDefaults.standard.string(forKey: "username") {
+            return un
+        } else {
+            return "0"
+        }
+    }
     
 // MARK: - Notification Center
     
@@ -77,10 +84,19 @@ class Helpers {
         return dateFormatter.string(from: date)
     }
     
-    func getCurrentReverseEpochTime() -> TimeInterval {
+    func getCurrentReverseEpochTime() -> Double {
         return (0 - Date().timeIntervalSince1970)
     }
 
+    
+// MARK: - SDWebImage
+    
+    func clearWebImageCache() {
+        let imageCache = SDImageCache.shared()
+        imageCache.clearMemory()
+        imageCache.clearDisk()
+    }
+    
     
 // MARK: - Strings
     
@@ -92,15 +108,5 @@ class Helpers {
             return false
         }
     }
-    
-    
-// MARK: - SDWebImage
-    
-    func clearWebImageCache() {
-        let imageCache = SDImageCache.shared()
-        imageCache.clearMemory()
-        imageCache.clearDisk()
-    }
-    
     
 }

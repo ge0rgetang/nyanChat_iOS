@@ -106,22 +106,7 @@ class SignUpViewController: UIViewController {
     }
     
     
-// MARK: - Firebase
-    
-    private func checkUsername(_ username: String) {
-        let helpers = Helpers()
-        let usernameLowercase = username.lowercased()
-        
-        let userRef = Database.database().reference().child("users")
-        userRef.queryOrdered(byChild: "usernameLower").queryEqual(toValue: usernameLowercase).observeSingleEvent(of: .value, with: {(snapshot) in
-            if snapshot.exists() {
-                self.doesUsernameExist = true
-                helpers.displayToast(self.view, message: "Username taken. Pick another.")
-            } else {
-                self.doesUsernameExist = false
-            }
-        })
-    }
+// MARK: - Firebase Auth
     
     private func signUp() {
         self.dismissKeyboard()
@@ -219,7 +204,13 @@ extension SignUpViewController: UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
         if textField.tag == 1 && textField.text != "" {
             let username = textField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-            self.checkUsername(username)
+            
+            FirebaseHelpers().checkUsername(username, completion: { (bool) in
+                self.doesUsernameExist = bool
+                if self.doesUsernameExist {
+                    Helpers().displayToast(self.view, message: "Username taken. Pick another.")
+                }
+            })
         }
     }
     

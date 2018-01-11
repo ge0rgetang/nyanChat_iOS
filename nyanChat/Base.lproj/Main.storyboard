@@ -296,7 +296,7 @@
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uOv-Kj-9Vj">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfilePic" translatesAutoresizingMaskIntoConstraints="NO" id="uOv-Kj-9Vj">
                                                     <rect key="frame" x="15" y="11" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="EZX-Da-icV"/>
@@ -334,7 +334,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="83.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PULL the left edge to bring up your profile or SEARCH for someone to NYANCHAT with!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arS-YP-Ov9">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PULL the left edge to bring up your profile or SEARCH for someone to chat with!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arS-YP-Ov9">
                                                     <rect key="frame" x="15" y="11" width="345" height="62"/>
                                                     <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="18"/>
                                                     <nil key="textColor"/>
@@ -469,7 +469,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="twA-BU-Xll">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfilePic" translatesAutoresizingMaskIntoConstraints="NO" id="twA-BU-Xll">
                                                     <rect key="frame" x="15" y="11" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="twA-BU-Xll" secondAttribute="height" multiplier="1:1" id="pus-dq-gbw"/>
@@ -556,14 +556,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="101.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hrf-qg-dyT">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfilePic" translatesAutoresizingMaskIntoConstraints="NO" id="hrf-qg-dyT">
                                                     <rect key="frame" x="15" y="11" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="Bka-r3-Il0"/>
                                                         <constraint firstAttribute="width" secondItem="hrf-qg-dyT" secondAttribute="height" multiplier="1:1" id="upt-ca-501"/>
                                                     </constraints>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vVX-Xw-NE2">
+                                                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vVX-Xw-NE2">
                                                     <rect key="frame" x="73" y="11" width="141.5" height="79.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="125" id="DUI-Jg-IVH"/>
@@ -596,7 +596,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="78.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3uX-GZ-sGA">
+                                                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3uX-GZ-sGA">
                                                     <rect key="frame" x="258.5" y="11" width="101.5" height="57"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="125" id="3Lz-DX-Lxv"/>
@@ -669,6 +669,7 @@
                                     <constraint firstAttribute="width" secondItem="5HF-YJ-BIP" secondAttribute="height" multiplier="1:1" id="3fT-vl-B9T"/>
                                     <constraint firstAttribute="width" constant="35" id="YMM-l2-q9y"/>
                                 </constraints>
+                                <state key="normal" image="camera"/>
                                 <connections>
                                     <action selector="cameraButtonTapped:" destination="PPl-e4-skX" eventType="touchUpInside" id="hKz-Vt-iCs"/>
                                 </connections>
@@ -689,6 +690,7 @@
                                     <constraint firstAttribute="width" secondItem="Dgo-aa-hUz" secondAttribute="height" multiplier="1:1" id="2rb-9r-dMc"/>
                                     <constraint firstAttribute="width" constant="35" id="3a6-Ik-Xdd"/>
                                 </constraints>
+                                <state key="normal" image="send"/>
                                 <connections>
                                     <action selector="sendButtonTapped:" destination="PPl-e4-skX" eventType="touchUpInside" id="RvH-UC-3cf"/>
                                 </connections>
@@ -696,6 +698,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="ZBj-MS-mu4" firstAttribute="top" secondItem="LD0-nF-URm" secondAttribute="bottom" constant="8" id="0CL-SC-jJO"/>
                             <constraint firstItem="5HF-YJ-BIP" firstAttribute="bottom" secondItem="ZBj-MS-mu4" secondAttribute="bottom" id="7YM-Uj-YlY"/>
                             <constraint firstItem="Qxb-XI-7DA" firstAttribute="trailing" secondItem="Dgo-aa-hUz" secondAttribute="trailing" constant="16" id="8vB-kn-muD"/>
                             <constraint firstItem="Dgo-aa-hUz" firstAttribute="leading" secondItem="ZBj-MS-mu4" secondAttribute="trailing" constant="8" id="9hY-B5-wAl"/>
@@ -704,7 +707,6 @@
                             <constraint firstItem="ZBj-MS-mu4" firstAttribute="leading" secondItem="5HF-YJ-BIP" secondAttribute="trailing" constant="8" id="O0I-S7-5S7"/>
                             <constraint firstItem="EIG-XS-hyu" firstAttribute="leading" secondItem="Qxb-XI-7DA" secondAttribute="leading" id="VzQ-lT-Og2"/>
                             <constraint firstItem="Dgo-aa-hUz" firstAttribute="bottom" secondItem="ZBj-MS-mu4" secondAttribute="bottom" id="Wia-X2-hre"/>
-                            <constraint firstItem="ZBj-MS-mu4" firstAttribute="top" secondItem="LD0-nF-URm" secondAttribute="bottom" constant="8" id="ae8-c6-GYb"/>
                             <constraint firstItem="xwj-7F-wlZ" firstAttribute="top" secondItem="ZBj-MS-mu4" secondAttribute="top" id="bBU-6l-xfM"/>
                             <constraint firstItem="xwj-7F-wlZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZBj-MS-mu4" secondAttribute="trailing" constant="8" id="d4u-t2-Cw9"/>
                             <constraint firstItem="EIG-XS-hyu" firstAttribute="top" secondItem="Qxb-XI-7DA" secondAttribute="top" id="hzH-0M-QfV"/>
@@ -723,6 +725,7 @@
                         <outlet property="sendButton" destination="Dgo-aa-hUz" id="J7D-25-C7i"/>
                         <outlet property="sendTextView" destination="ZBj-MS-mu4" id="pI1-Kt-06J"/>
                         <outlet property="typingLabel" destination="LD0-nF-URm" id="la4-Ix-IKn"/>
+                        <outlet property="typingLabelHeight" destination="bGd-0H-4F8" id="uzE-t8-h1L"/>
                         <segue destination="IBF-Ah-WQI" kind="presentation" identifier="fromConversationToFullscreenImageSegue" modalPresentationStyle="fullScreen" id="yV3-hW-H51"/>
                     </connections>
                 </viewController>
@@ -802,7 +805,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera" width="50" height="50"/>
         <image name="defaultProfilePic" width="125" height="125"/>
         <image name="nyanCatBackground" width="336" height="594"/>
+        <image name="send" width="50" height="50"/>
     </resources>
 </document>
