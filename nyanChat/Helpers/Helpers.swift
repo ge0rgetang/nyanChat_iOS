@@ -34,6 +34,16 @@ class Helpers {
             return "0"
         }
     }
+   
+    
+// MARK: - Buttons
+
+    func roundButtons(_ buttons: [UIButton]) {
+        buttons.forEach { button in
+            button.layer.cornerRadius = 5 
+        }
+    }
+    
     
 // MARK: - Notification Center
     
@@ -45,7 +55,7 @@ class Helpers {
 // MARK: - Toast
     
     func displayToast(_ view: UIView, message: String) {
-        view.hideAllToasts()
+        self.hideToasts(view)
         view.makeToast(message, duration: 2.0, position: .top)
     }
     
@@ -55,6 +65,7 @@ class Helpers {
     
     func hideToasts(_ view: UIView) {
         view.hideAllToasts()
+        view.hideToastActivity()
     }
     
     

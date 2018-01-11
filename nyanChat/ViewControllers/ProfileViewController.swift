@@ -35,6 +35,8 @@ class ProfileViewController: UIPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Helpers().roundButtons([self.logoutButton])
+
         let tapPic: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.selectPicSource))
         self.profilePicImageView.addGestureRecognizer(tapPic)
         
@@ -156,7 +158,7 @@ extension ProfileViewController: UIImagePickerControllerDelegate, UINavigationCo
             }
             
             alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-            alertController.view.tintColor = UIColor(red: 1.0/255.0, green: 68.0/255.0, blue: 121.0/255/0, alpha: 1.0)
+            alertController.view.tintColor = UIColor(red: 1.0/255.0, green: 68.0/255.0, blue: 121.0/255.0, alpha: 1.0)
             self.present(alertController, animated: true, completion: nil)
         })
     }

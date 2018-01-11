@@ -36,6 +36,8 @@ class LoginViewController: UIViewController {
         self.emailTextField.delegate = self
         self.passwordTextField.delegate = self
         
+        Helpers().roundButtons([self.confirmButton])
+
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
         self.view.addGestureRecognizer(tap)
         tap.cancelsTouchesInView = false
@@ -43,6 +45,8 @@ class LoginViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         self.setNotifications()
+        self.emailTextField.text = ""
+        self.passwordTextField.text = ""
     }
     
     override func viewWillDisappear(_ animated: Bool) {

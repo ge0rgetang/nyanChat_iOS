@@ -70,7 +70,7 @@ class ChatListViewController: UIViewController {
             sideMenuNavigationController.leftSide = true
             SideMenuManager.default.menuLeftNavigationController = sideMenuNavigationController
             SideMenuManager.default.menuPresentMode = .menuSlideIn
-            SideMenuManager.default.menuAnimationBackgroundColor = UIColor(red: 1.0/255.0, green: 68.0/255.0, blue: 121.0/255/0, alpha: 1.0)
+            SideMenuManager.default.menuAnimationBackgroundColor = UIColor(red: 1.0/255.0, green: 68.0/255.0, blue: 121.0/255.0, alpha: 1.0)
             SideMenuManager.default.menuAnimationFadeStrength = 0.35
             SideMenuManager.default.menuAnimationTransformScaleFactor = 1.0
             SideMenuManager.default.menuAddPanGestureToPresent(toView: self.navigationController!.navigationBar)

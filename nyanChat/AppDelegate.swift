@@ -19,9 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         
-        let nyanBlue = UIColor(red: 1.0/255.0, green: 68.0/255.0, blue: 121.0/255/0, alpha: 1.0)
+        let nyanBlue = UIColor(red: 1.0/255.0, green: 68.0/255.0, blue: 121.0/255.0, alpha: 1.0)
         UINavigationBar.appearance().tintColor = nyanBlue
-        let attributes = [NSAttributedStringKey.font: UIFont(name: "nyanFont", size: 20)!]
+        let attributes = [NSAttributedStringKey.font: UIFont(name: "Minecraft", size: 20)!]
         UINavigationBar.appearance().titleTextAttributes = attributes
         
         return true

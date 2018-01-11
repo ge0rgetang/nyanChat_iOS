@@ -45,6 +45,8 @@ class SignUpViewController: UIViewController {
         self.usernameTextField.delegate = self
         self.passwordTextField.delegate = self
         
+        Helpers().roundButtons([self.confirmButton])
+        
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
         self.view.addGestureRecognizer(tap)
         tap.cancelsTouchesInView = false
@@ -52,6 +54,9 @@ class SignUpViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         self.setNotifications()
+        self.emailTextField.text = ""
+        self.usernameTextField.text = ""
+        self.passwordTextField.text = ""
     }
     
     override func viewWillDisappear(_ animated: Bool) {

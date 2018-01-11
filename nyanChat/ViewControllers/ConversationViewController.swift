@@ -11,7 +11,7 @@ import FirebaseStorage
 
 class ConversationViewController: UIViewController {
     
-    // MARK: - Outlets
+// MARK: - Outlets
     
     @IBOutlet weak var conversationTableView: UITableView!
     @IBOutlet weak var typingLabel: UILabel!
@@ -420,7 +420,7 @@ extension ConversationViewController: UIImagePickerControllerDelegate, UINavigat
             }
             
             alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-            alertController.view.tintColor = UIColor(red: 1.0/255.0, green: 68.0/255.0, blue: 121.0/255/0, alpha: 1.0)
+            alertController.view.tintColor = UIColor(red: 1.0/255.0, green: 68.0/255.0, blue: 121.0/255.0, alpha: 1.0)
             self.present(alertController, animated: true, completion: nil)
         })
     }
