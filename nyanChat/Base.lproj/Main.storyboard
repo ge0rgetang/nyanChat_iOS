@@ -352,6 +352,42 @@
                                             <outlet property="noContentLabel" destination="arS-YP-Ov9" id="yp3-PI-X3G"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="searchCell" rowHeight="72" id="ZXj-Ew-zhJ" customClass="SearchTableViewCell" customModule="nyanChat" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="210" width="375" height="72"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZXj-Ew-zhJ" id="sMJ-M1-vm3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfilePic" translatesAutoresizingMaskIntoConstraints="NO" id="fBM-b9-2PN">
+                                                    <rect key="frame" x="15" y="11" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="efF-nT-pTb"/>
+                                                        <constraint firstAttribute="width" secondItem="fBM-b9-2PN" secondAttribute="height" multiplier="1:1" id="p3m-V4-N69"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3I-ie-Riz">
+                                                    <rect key="frame" x="73" y="11" width="287" height="50"/>
+                                                    <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="P3I-ie-Riz" firstAttribute="leading" secondItem="fBM-b9-2PN" secondAttribute="trailing" constant="8" id="Pro-g2-GOv"/>
+                                                <constraint firstItem="P3I-ie-Riz" firstAttribute="bottom" secondItem="sMJ-M1-vm3" secondAttribute="bottomMargin" id="VJn-Rh-lmW"/>
+                                                <constraint firstItem="fBM-b9-2PN" firstAttribute="top" secondItem="sMJ-M1-vm3" secondAttribute="topMargin" id="b6h-Gy-Wm8"/>
+                                                <constraint firstItem="fBM-b9-2PN" firstAttribute="leading" secondItem="sMJ-M1-vm3" secondAttribute="leadingMargin" id="bpe-ex-26S"/>
+                                                <constraint firstItem="P3I-ie-Riz" firstAttribute="trailing" secondItem="sMJ-M1-vm3" secondAttribute="trailingMargin" id="me8-ZB-J9a"/>
+                                                <constraint firstItem="P3I-ie-Riz" firstAttribute="top" secondItem="sMJ-M1-vm3" secondAttribute="topMargin" id="nym-fH-fsW"/>
+                                                <constraint firstItem="fBM-b9-2PN" firstAttribute="bottom" secondItem="sMJ-M1-vm3" secondAttribute="bottomMargin" id="t0o-kD-bRV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="profilePicImageView" destination="fBM-b9-2PN" id="haj-vW-mGK"/>
+                                            <outlet property="usernameLabel" destination="P3I-ie-Riz" id="7eV-Y3-VmU"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>

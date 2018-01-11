@@ -17,6 +17,7 @@ class FirebaseHelpers {
     
     var ref = Database.database().reference()
     
+    // Sign Up
     func checkUsername(_ username: String, completion: @escaping(Bool) -> ()) {
         let usernameLowercase = username.lowercased()
         let userRef = Database.database().reference().child("users")
@@ -29,6 +30,7 @@ class FirebaseHelpers {
         })
     }
     
+    // Chat List
     func observeChatList(completion: @escaping([ChatList]) -> ()) {
         self.removeChatListObserver()
         
@@ -36,7 +38,6 @@ class FirebaseHelpers {
         let currentReverseTimestamp = helpers.getCurrentReverseEpochTime()
         let myID = helpers.retrieveMyID()
         let chatListRef = self.ref.child("chatList").child(myID)
-        
         
         chatListRef.queryOrdered(byChild: "reverseTimestamp").queryStarting(atValue: currentReverseTimestamp).queryLimited(toFirst: 42).observe(.value, with: { (snapshot) -> Void in
             if let dict = snapshot.value as? [String:Any] {
@@ -71,6 +72,34 @@ class FirebaseHelpers {
         chatListRef.removeAllObservers()
     }
     
+    func searchUsername(_ usernameLowercase: String, completion: @escaping([SearchResult]) -> ()) {
+        let userRef = self.ref.child("users")
+        
+        userRef.queryOrdered(byChild: "usernameLowercase").queryStarting(atValue: usernameLowercase).queryEnding(atValue: usernameLowercase + "\u{f8ff}").queryLimited(toFirst: 21).observeSingleEvent(of: .value, with: { snapshot in
+            var results: [SearchResult] = []
+            
+            if let dict = snapshot.value as? [String:Any] {
+                for entry in dict {
+                    let info = entry.value as? [String:Any] ?? [:]
+                    var result = SearchResult()
+
+                    let userID = entry.key
+                    result.userID = userID
+                    result.username = info["username"] as? String ?? "error"
+                    let profilePicURLString = info["profilePicURLString"] as? String ?? "error"
+                    if profilePicURLString != "error" {
+                        result.profilePicURL = URL(string: profilePicURLString)
+                    }
+                    
+                    results.append(result)
+                }
+            }
+            
+            completion(results)
+        })
+    }
+    
+    // Conversation
     func observeConversation(_ chatID: String, completion: @escaping([Message]) -> ()) {
         self.removeConversationObserver(chatID)
         

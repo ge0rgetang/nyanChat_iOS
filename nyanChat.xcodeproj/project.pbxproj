@@ -33,6 +33,8 @@
 		572CE5112007782C00D548B9 /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5102007782C00D548B9 /* ChatList.swift */; };
 		572CE5132007799000D548B9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5122007799000D548B9 /* Message.swift */; };
 		572CE5152007BA7700D548B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 572CE5142007BA7700D548B9 /* GoogleService-Info.plist */; };
+		572CE5172007C01400D548B9 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5162007C01400D548B9 /* SearchResult.swift */; };
+		572CE5192007C17A00D548B9 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE5182007C17A00D548B9 /* SearchTableViewCell.swift */; };
 		94834B05B0E3D718E00C0C3C /* Pods_nyanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +90,8 @@
 		572CE5102007782C00D548B9 /* ChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
 		572CE5122007799000D548B9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		572CE5142007BA7700D548B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		572CE5162007C01400D548B9 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		572CE5182007C17A00D548B9 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		5875AA010082A3F101535763 /* Pods_nyanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6391B5345515C98E6A5FF228 /* Pods_nyanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nyanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754CB7533C31AB11A8B37EE5 /* Pods-nyanChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyanChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nyanChatTests/Pods-nyanChatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -227,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				572CE5022007280A00D548B9 /* NoContentTableViewCell.swift */,
+				572CE5182007C17A00D548B9 /* SearchTableViewCell.swift */,
 				572CE5042007284000D548B9 /* ChatListTableViewCell.swift */,
 				572CE5062007286C00D548B9 /* TextTableViewCell.swift */,
 				572CE5082007288000D548B9 /* ImageTableViewCell.swift */,
@@ -238,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				572CE5102007782C00D548B9 /* ChatList.swift */,
+				572CE5162007C01400D548B9 /* SearchResult.swift */,
 				572CE5122007799000D548B9 /* Message.swift */,
 			);
 			path = Models;
@@ -575,6 +581,8 @@
 				572CE4EE2006C3C500D548B9 /* ConversationViewController.swift in Sources */,
 				572CE4F72006D88300D548B9 /* Helpers.swift in Sources */,
 				572CE5092007288000D548B9 /* ImageTableViewCell.swift in Sources */,
+				572CE5192007C17A00D548B9 /* SearchTableViewCell.swift in Sources */,
+				572CE5172007C01400D548B9 /* SearchResult.swift in Sources */,
 				572CE4BD1FEF43B200D548B9 /* nyanChat.xcdatamodeld in Sources */,
 				572CE4B51FEF43B200D548B9 /* AppDelegate.swift in Sources */,
 				572CE50E200765F600D548B9 /* FirebaseHelpers.swift in Sources */,

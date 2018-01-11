@@ -120,4 +120,12 @@ class Helpers {
         }
     }
     
+    func setChatID(_ myID: String, userID: String) -> String {
+        if myID < userID {
+            return "\(myID)_\(userID)"
+        } else {
+            return "\(userID)_\(myID)"
+        }
+    }
+    
 }
